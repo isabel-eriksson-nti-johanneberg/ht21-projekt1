@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+ 
+nav {
+    z-index: 1000;
+    position: absolute;
+    right: 30px;
+}
+
+#header nav ul {
+    display: flex;
+
+}
+
+#header nav ul li {
+    list-style-type: none;
+    margin: 10px;
+    color: white;
+}
+
+#header #content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#header #content button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
