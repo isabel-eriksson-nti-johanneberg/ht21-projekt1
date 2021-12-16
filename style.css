@@ -40,14 +40,20 @@ nav {
 }
 
 #header #content button {
-    width: 140px;
-    height: 35px;
+    padding: 15px 20px;
     border: none;
-    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+    font-size: 14px;
+}
+
+#header #content button:hover {
+    background-color: rgb(196, 196, 196);
 }
 
 #container {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -65,5 +71,6 @@ nav {
 
 #section1 #text {
     width: 400px;
-    text-align: right;
+    text-align: center;
+
 }
