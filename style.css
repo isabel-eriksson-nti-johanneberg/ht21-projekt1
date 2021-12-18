@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(219, 219, 219);
 }
 
 #header {
@@ -53,7 +53,7 @@ nav {
 }
 
 #container {
-    width: 90%;
+    width: 93%;
     margin: auto;
 }
 
@@ -72,5 +72,22 @@ nav {
 #section1 #text {
     width: 400px;
     text-align: center;
+}
 
+#section2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#section2 .meal {
+    margin-bottom: 20px;
+}
+
+#section2 .meal .top {
+    display: flex;
+    justify-content: center;
+}
+
+#section2 .meal .top p {
+    margin: 5px;
 }
